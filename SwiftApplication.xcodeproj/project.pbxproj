@@ -16,6 +16,10 @@
 		8F7B9504273DAEC000250ABA /* SwiftApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B9503273DAEC000250ABA /* SwiftApplicationTests.swift */; };
 		8F7B950E273DAEC000250ABA /* SwiftApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B950D273DAEC000250ABA /* SwiftApplicationUITests.swift */; };
 		8F7B9510273DAEC000250ABA /* SwiftApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B950F273DAEC000250ABA /* SwiftApplicationUITestsLaunchTests.swift */; };
+		8F7B951D273DB15100250ABA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B951C273DB15100250ABA /* SignUpViewController.swift */; };
+		8F7B951F273DB18E00250ABA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B951E273DB18E00250ABA /* LoginViewController.swift */; };
+		8F7B9521273DB19D00250ABA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B9520273DB19D00250ABA /* HomeViewController.swift */; };
+		8F7B9525273DE3A800250ABA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B9524273DE3A800250ABA /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		8F7B9509273DAEC000250ABA /* SwiftApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7B950D273DAEC000250ABA /* SwiftApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApplicationUITests.swift; sourceTree = "<group>"; };
 		8F7B950F273DAEC000250ABA /* SwiftApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F7B951C273DB15100250ABA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8F7B951E273DB18E00250ABA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8F7B9520273DB19D00250ABA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8F7B9524273DE3A800250ABA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,10 @@
 		8F7B94EB273DAEBF00250ABA /* SwiftApplication */ = {
 			isa = PBXGroup;
 			children = (
+				8F7B9523273DE39000250ABA /* Helpers */,
+				8F7B9522273DB1FA00250ABA /* VIew Controllers */,
 				8F7B94EC273DAEBF00250ABA /* AppDelegate.swift */,
 				8F7B94EE273DAEBF00250ABA /* SceneDelegate.swift */,
-				8F7B94F0273DAEBF00250ABA /* ViewController.swift */,
 				8F7B94F2273DAEBF00250ABA /* Main.storyboard */,
 				8F7B94F5273DAEC000250ABA /* Assets.xcassets */,
 				8F7B94F7273DAEC000250ABA /* LaunchScreen.storyboard */,
@@ -125,6 +134,25 @@
 				8F7B950F273DAEC000250ABA /* SwiftApplicationUITestsLaunchTests.swift */,
 			);
 			path = SwiftApplicationUITests;
+			sourceTree = "<group>";
+		};
+		8F7B9522273DB1FA00250ABA /* VIew Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F7B9520273DB19D00250ABA /* HomeViewController.swift */,
+				8F7B951E273DB18E00250ABA /* LoginViewController.swift */,
+				8F7B951C273DB15100250ABA /* SignUpViewController.swift */,
+				8F7B94F0273DAEBF00250ABA /* ViewController.swift */,
+			);
+			path = "VIew Controllers";
+			sourceTree = "<group>";
+		};
+		8F7B9523273DE39000250ABA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8F7B9524273DE3A800250ABA /* Utilities.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +288,11 @@
 			files = (
 				8F7B94F1273DAEBF00250ABA /* ViewController.swift in Sources */,
 				8F7B94ED273DAEBF00250ABA /* AppDelegate.swift in Sources */,
+				8F7B9525273DE3A800250ABA /* Utilities.swift in Sources */,
+				8F7B951D273DB15100250ABA /* SignUpViewController.swift in Sources */,
+				8F7B951F273DB18E00250ABA /* LoginViewController.swift in Sources */,
 				8F7B94EF273DAEBF00250ABA /* SceneDelegate.swift in Sources */,
+				8F7B9521273DB19D00250ABA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
